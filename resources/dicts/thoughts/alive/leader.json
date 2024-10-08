@@ -40,7 +40,9 @@
             "Is wondering what the Clan thinks of {PRONOUN/m_c/poss} leadership",
             "Is proud of the way the Clan is handling things lately",
             "Promises to take care of the Clan with {PRONOUN/m_c/poss} lives",
-            "Is busy planning out priorities for the day"
+            "Is busy planning out priorities for the day",
+            "Plans to speak to StarClan soon",
+            "Is tired of telling the deputy to assign patrols"
         ]
     },
     {
@@ -51,7 +53,9 @@
             "Is personally observing r_c's training today",
             "Is having a serious discussion with r_c about being a warrior soon",
             "Is wondering if r_c is ready for the responsibility of being a warrior",
-            "Is asking r_c if {PRONOUN/r_c/subject} {VERB/r_c/are/is} ready for an assessment"
+            "Is asking r_c if {PRONOUN/r_c/subject} {VERB/r_c/are/is} ready for an assessment",
+            "Is monitoring r_c's progress",
+            "Is currently swapping tips with r_c"
         ],
         "random_status_constraint": [
             "apprentice"
@@ -93,7 +97,8 @@
         "id": "ambitious_leader",
         "thoughts": [
             "Considers expanding the borders",
-            "Makes sure all cats are battle ready"
+            "Makes sure all cats are battle ready",
+            "Is sharpening {PRONOUN/m_c/poss} claws for a clan meeting"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -154,7 +159,9 @@
         "id": "charismatic_leader",
         "thoughts": [
             "Gives a particularly rousing speech at a Clan meeting",
-            "Feels confident that the Clan admires {PRONOUN/m_c/object}"
+            "Feels confident that the Clan admires {PRONOUN/m_c/object}",
+            "Is smirking at his clan",
+            "
         ],
         "main_trait_constraint": [
             "charismatic"
@@ -188,12 +195,26 @@
         "id": "insecure_leader",
         "thoughts": [
             "Thinks {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} deserve StarClan's blessing of 9 lives",
-            "Wonders if cats like {PRONOUN/m_c/object} as a leader"
+            "Wonders if cats like {PRONOUN/m_c/object} as a leader",
+            "Is stuttering during a clan meeting",
+            "Is desperately grooming {PRONOUN/m_c/poss} fur to get ready for a clan meeting"
         ],
         "main_trait_constraint": [
             "insecure"
         ]
     },
+    {
+        "id": "insecure_leader_rc",
+        "thoughts":[
+            "Is asking r_c if they think {PRONOUN/m_c/subject} {PRONOUN/m_c/are/is} a good leader"
+        ],
+        "random_living_constraint":[
+            "living"
+        ]
+        "main_trait_constraint":[
+            "insecure"
+        ]
+    }
     {
         "id": "strange_leader",
         "thoughts": [
