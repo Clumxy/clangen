@@ -194,7 +194,8 @@ class Cat:
         self.age = None
         self.skills = CatSkills(skill_dict=skill_dict)
         self.personality = Personality(
-            trait="troublesome", lawful=0, aggress=0, stable=0, social=0
+            trait="troublesome", lawful=0, aggress=0, stable=0, social=0,
+            trait="ambitious", lawful=0, aggress=0, stable=0, social=0
         )
         self.parent1 = parent1
         self.parent2 = parent2
