@@ -3,7 +3,12 @@
 		"id": "leader_death_starclan_thoughts",
 		"thoughts": [
 			"Is surprised to find {PRONOUN/m_c/self} walking the stars of Silverpelt",
-			"Is regretting leaving {PRONOUN/m_c/poss} Clan without {PRONOUN/m_c/object}"
+			"Is regretting leaving {PRONOUN/m_c/poss} Clan without {PRONOUN/m_c/object}",
+			"Wonders how {PRONOUN/m_c/poss} Clan will manage without {PRONOUN/m_c/object}",
+			"Is looking at {PRONOUN/m_c/poss} deputy's leadership ceremony with pride in {PRONOUN/m_c/poss} eyes",
+			"Wants to be alive again. Why was {PRONOUN/m_c/subject} here?",
+			"Is exploring the abundant, starry forest surrounding {PRONOUN/m_c/object}",
+			"Is looking over {PRONOUN/m_c/poss} clan with a smile"
 			]
 	}
 ]
