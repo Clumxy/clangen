@@ -3387,7 +3387,7 @@ class Cat:
                 "backstory": self.backstory if self.backstory else None,
                 "moons": self.moons,
                 "trait": self.personality.trait,
-                "facets": self.pf    ersonality.get_facet_string(),
+                "facets": self.personality.get_facet_string(),
                 "parent1": self.parent1,
                 "parent2": self.parent2,
                 "adoptive_parents": self.adoptive_parents,
