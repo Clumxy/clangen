@@ -194,8 +194,7 @@ class Cat:
         self.age = None
         self.skills = CatSkills(skill_dict=skill_dict)
         self.personality = Personality(
-            trait="troublesome", lawful=0, aggress=0, stable=0, social=0,
-            trait2="troublesome", lawful=0, aggress=0, stable=0, social=0
+            trait="troublesome", lawful=0, aggress=0, stable=0, social=0
         )
         self.parent1 = parent1
         self.parent2 = parent2
@@ -3497,7 +3496,6 @@ class Personality:
     def __init__(
         self,
         trait: str = None,
-        trait2: str = None,
         kit_trait: bool = False,
         lawful: int = None,
         social: int = None,
@@ -3514,7 +3512,6 @@ class Personality:
         self._aggress = 0
         self._stable = 0
         self.trait = None
-        self.trait2 = None
         self.kit = kit_trait  # If true, use kit trait. If False, use normal traits.
 
         if self.kit:
