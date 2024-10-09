@@ -160,8 +160,8 @@
         "thoughts": [
             "Gives a particularly rousing speech at a Clan meeting",
             "Feels confident that the Clan admires {PRONOUN/m_c/object}",
-            "Is smirking at his clan",
-            "
+            "Is smirking at {PRONOUN/m_c/poss} clan",
+            "Strides over to the clan rock"
         ],
         "main_trait_constraint": [
             "charismatic"
@@ -210,11 +210,11 @@
         ],
         "random_living_constraint":[
             "living"
-        ]
+        ],
         "main_trait_constraint":[
             "insecure"
         ]
-    }
+    },
     {
         "id": "strange_leader",
         "thoughts": [
@@ -329,3 +329,4 @@
         ]
     }
 ]
+
