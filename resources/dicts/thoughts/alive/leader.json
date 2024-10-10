@@ -206,7 +206,7 @@
     {
         "id": "insecure_leader_rc",
         "thoughts":[
-            "Is asking r_c if they think {PRONOUN/m_c/subject} {PRONOUN/m_c/are/is} a good leader"
+            "Is asking r_c if they think {PRONOUN/m_c/subject} {PRONOUN/m_c/is/are} a good leader"
         ],
         "random_living_constraint":[
             "living"
