@@ -9,7 +9,8 @@
             "Wonders what {PRONOUN/m_c/poss} warrior name would've been",
             "Is glad that elders don't get ticks in StarClan",
             "Wonders if the water ever freezes in StarClan",
-            "Sneaks close to the border of the Dark Forest but dares not go in"
+            "Sneaks close to the border of the Dark Forest but dares not go in",
+            "Wishes they were alive again so they could get {PRONOUN/m_c/poss} warrior name"
         ],
         "random_living_status":[
             "living",
@@ -21,7 +22,11 @@
         "thoughts": [
             "Laughs with r_c",
             "Stalks through StarClan's forests with r_c",
-            "Encourages r_c to dip {PRONOUN/r_c/poss} paws into the cool water"
+            "Encourages r_c to dip {PRONOUN/r_c/poss} paws into the cool water",
+            "Is glad that at least r_c is here with {PRONOUN/m_c/object}",
+            "Is debating what their warrior names would've been with r_c",
+            "Is exploring the StarClan territory with r_c",
+            "Is sparring with r_c"
         ],
         "random_living_status": [
             "starclan"
