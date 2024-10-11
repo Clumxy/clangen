@@ -1,12 +1,15 @@
 {
     "high_lawful": {
         "will_not_reveal": {
-            "general": [],
+            "general": [
+                "[witness] heard commotion from the bushes, and went to investigate. They saw [murderer] standing over [victim]. They arrived to the camp, acting like they saw nothing despite the trauma in their gaze.",
+                "[witness] arrived just as [murderer] gave [victim] the killing blow. They were shocked, running away as fast as they could. They wouldn't speak, because then what if [murderer] went and tried to kill them too? They'd rather keep their mouth shut than to lose their life."
+            ],
             "friends": [
-                "[witness] looks aghast as they stumble upon [murderer] standing over [victim]. Though there is pain in their eyes, they agree to keep their muzzle shut."
+                "[witness] looked aghast as they stumbled upon [murderer] standing over [victim]. Though there was pain in their eyes, they agreed to keep their muzzle shut."
             ],
             "parent": [
-                "[witness] can feel all of the fur along their spine lifting as they gaze into the eyes of their kit. Ears laid flat against their head, they know that they can't tell anyone."
+                "[witness] could feel all of the fur along their spine lifting as they gazed into the eyes of their kit. Ears laid flat against their head, they knew that they couldn't tell anyone."
             ],
             "child": [],
             "sibling": []
@@ -14,21 +17,32 @@
         "will_reveal": {
             "general": [],
             "friends": [
-                "[witness] can't believe what they're seeing. They slowly back away, careful not to let [murderer] spot them."
+                "[witness] couldn't believe what they were seeing. They slowly backed away, careful not to let [murderer] spot them.",
+                "[witness] couldn't help but notice a departing [murderer] as they emerged from the bushes, and noticed [victim] lying lifeless nearby. They were shocked-- how could their friend, [murderer], do such a thing? This wasn't like them at all. They decided to tell the clan, for the justice of [victim].",
+                "[witness] felt a pang of betrayal as they saw [murderer] standing over [victim]'s body. They knew they must inform the clan, despite their friendship with [murderer].",
+                "[witness] watched in horror as [murderer] walked away from [victim]'s lifeless form. They took a deep breath and resolved to tell the clan, knowing it was the right thing to do. They'd rather lose a friend than live with the fact that their friend; that they trusted with their life, murdered someone.",
+                "[witness] glances in disapproval as they see [murderer], the scent of [victim] radiating from [murderer]'s fur. They instantly back away, their face twisted in a snarl before running for their life to the safety of the camp."
             ],
-            "parent": [],
-            "child": [],
-            "sibling": []
+            "parent": [
+                "[murderer] smiles over the body of [victim], a smug look on their bloodied face. Suddenly, their parent walks out of the bushes. [murderer] tries to explain what actually happened, but [witness] knew everything. They tell the clan about the death of [victim]."
+            ],
+            "child": [
+                "[witness] felt like their world was crumbling before their eyes. Their kit; their precious kit, was standing over the helpless body of [victim]. Had they failed as a parent? They decided to tell the clan; even though they loved [murderer], they needed to do what was right."
+            ],
+            "sibling": [
+                "[witness] heard screaming from the bushes, and arrived, worried that [murderer] was in danger. However, what they saw was completely the opposite. [murderer]; their brother, was standing over [victim], their paws stained with their blood. [witness] ran away, and told the clan what they saw. They wouldn't let [murderer] get away with this."
+            ]
         }
     },
     "low_lawful": {
         "will_not_reveal": {
             "general": [],
             "friends": [
-                "[witness] looks aghast as they stumble upon [murderer] standing over [victim]. Though there is pain in their eyes, they agree to keep their muzzle shut."
+                "[witness] looked aghast as they stumbled upon [murderer] standing over [victim]. Though there was pain in their eyes, they agreed to keep their muzzle shut."
             ],
             "parent": [
-                "[witness] can feel all of the fur along their spine lifting as they gaze into the eyes of their kit. Ears laid flat against their head, they know that they can't tell anyone."
+                "[witness] could feel all of the fur along their spine lifting as they gazed into the eyes of their kit. Ears laid flat against their head, they knew that they couldn't tell anyone.",
+                "[witness]'s eyes narrowed deeply as they noticed [murderer], standing over the lifeless body of [victim]. They decided not to say anything."
             ],
             "child": [],
             "sibling": []
@@ -36,11 +50,16 @@
         "will_reveal": {
             "general": [],
             "friends": [
-                "[witness] can't believe what they're seeing. They slowly back away, careful not to let [murderer] spot them."
+                "[witness] couldn't believe what they were seeing. They slowly backed away, careful not to let [murderer] spot them.",
+                "[witness] looked at the situation as it unfolded, and looked at [murderer] with a look of slight surprise. They decided to tell the clan; but not for justice. Just to gain trust and respect from their clanmates.",
+                "[witness] glanced over to the bushes, emerging from them. Their eyes peered over their friend, [murderer], their paws stained with the very blood of [victim]. They walked to the camp, and later casually talked about how [murder] killed [victim].",
+                "The night may have been beautiful, but the sight of [murderer] standing over [victim] was even more beautiful. Though [witness] might've been accepting of their friend's murder, they decided to tell the clan; just to make sure they didn't look suspicious."
             ],
             "parent": [],
             "child": [],
-            "sibling": []
-        }
+            "sibling": [
+                "[witness] glanced at their sibling, [murderer], and smiled. A new opportunity to gain the trust of their clan. [murderer], you're over!",
+                "Is watching as [murderer] stood over the limp, lifeless body of [victim]. They cant believe that their sibling; their own sibling, could do such a thing. They decided to tell the clan, for the justice of [victim]."
+            ]        }
     }
 }
