@@ -18,8 +18,8 @@
 			"m_c notices that r_c doesn't want to help out.",
 			"m_c doesn't understand why r_c is being so rude.",
 			"r_c saw m_c taking extra fresh kill before others had a chance to eat.",
-            		"m_c walks away when r_c asks for help.",
-            		"r_c saw m_c do something kinda selfish."
+            "m_c walks away when r_c asks for help.",
+            "r_c saw m_c do something kinda selfish."
 		],
 		"reaction_random_cat": {
 			"admiration": "decrease"
@@ -40,7 +40,8 @@
 			"m_c tried to bring r_c's behavior up to {PRONOUN/r_c/object}, but it turned into a fight that someone else had to break up.",
 			"m_c confronted r_c about {PRONOUN/r_c/poss} bad attitude but it only made r_c act out more.",
 			"m_c is disappointed when r_c doesn't uphold a promise.",
-			"r_c saw m_c do something really selfish and, while it didn't affect anyone else, m_c's view of {PRONOUN/r_c/object} is definitely warped."
+			"r_c saw m_c do something really stupid, and puts a paw over {PRONOUN/m_c/poss} mouth to muffle {PRONOUN/m_c/poss} loud laughter.",
+			"r_c is feeling really upset about m_c's way of handling conflict."
 		],
 		"reaction_random_cat": {
 			"admiration": "decrease"
@@ -100,7 +101,7 @@
 			"deputy",
 			"leader"
 		]
-	},
+	}, 
 	{
 		"id": "admire_adult_de_med2",
 		"interactions": [
@@ -145,10 +146,77 @@
 			"m_c was noticeably distracted while r_c was trying to tell a story.",
 			"m_c and r_c have a long discussion about goals and aspirations, and find that they don't agree on many things.",
 			"m_c spent a long time talking with r_c and was disappointed by r_c's lack of interest.",
-			"m_c asks r_c about something complicated and regrets it almost immediately when r_c misses the point."
+			"m_c asks r_c about something complicated and regrets it almost immediately when r_c misses the point.",
+			"m_c was seething in anger with a failed hunt; because of r_c's careless performance! Does {PRONOUN/r_c/OBJECT} think that the prey will just suddenly appear in {PRONON/r_c/OBJECT}'s paws?"
 		],
 		"reaction_random_cat": {
 			"admiration": "decrease"
+		}
+	},
+	{
+		"id": "admire_de_high3",
+		"intensity": "high",
+		"interactions": [
+			"m_c discovers that r_c has been lying about their accomplishments.",
+			"m_c witnesses r_c bullying a younger cat in the Clan.",
+			"m_c realizes that r_c has been taking credit for other cats' work.",
+			"m_c overhears r_c badmouthing the Clan leader behind their back.",
+			"m_c saw r_c do something very selfish and, while it didn't affect anyone else, m_c's view of {PRONOUN/r_c/object} is definitely warped."
+		],
+		"reaction_random_cat": {
+			"admiration": "decrease",
+			"trust": "decrease"
+		}
+	},
+	{
+		"id": "admire_de_mentor1",
+		"intensity": "high",
+		"interactions": [
+			"m_c is deeply disappointed by r_c's lack of progress in training.",
+			"m_c catches r_c deliberately disobeying important Clan rules.",
+			"m_c realizes that r_c has been lying about completing assigned tasks.",
+			"m_c notices that r_c consistently fails to apply lessons from previous training sessions.",
+			"m_c is disappointed by r_c's lack of progress in their training sessions.",
+			"m_c is extremely upset at r_c after {PRONOUN/m_c/object} {VERB/m_c/scare/scares} away all the prey in the area!"
+		],
+		"main_status_constraint": [
+			"warrior",
+			"medicine cat",
+			"deputy",
+			"leader"
+		],
+		"random_status_constraint": [
+			"apprentice",
+			"medicine cat apprentice"
+		],
+		"reaction_random_cat": {
+			"admiration": "decrease",
+			"respect": "decrease"
+		}
+	},
+	{
+		"id": "admire_de_leader1",
+		"intensity": "high",
+		"interactions": [
+			"m_c observes r_c making a series of poor decisions that negatively impact the Clan.",
+			"m_c discovers that r_c has been abusing their authority for personal gain.",
+			"m_c realizes that r_c's leadership style is causing division within the Clan.",
+			"m_c notices that r_c consistently fails to take responsibility for their mistakes as a leader."
+		],
+		"main_status_constraint": [
+			"warrior",
+			"medicine cat",
+			"deputy",
+			"elder"
+		],
+		"random_status_constraint": [
+			"deputy",
+			"leader"
+		],
+		"reaction_random_cat": {
+			"admiration": "decrease",
+			"respect": "decrease",
+			"trust": "decrease"
 		}
 	}
 ]
