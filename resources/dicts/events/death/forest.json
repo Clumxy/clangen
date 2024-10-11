@@ -117,5 +117,43 @@
             "cats": ["m_c"],
             "reg_death": "m_c was grabbed by a rook, never to be seen again."
         }]
+    },
+    {
+        "event_id": "gen_death_hawk_any1",
+        "location": ["forest:camp1_camp2_camp4"],
+        "season": [
+            "any"
+        ],
+        "tags": ["no_body"],
+        "weight": 20,
+        "event_text": "A hawk swoops over camp, its brown wings piercing the sky. The hawk lowers, its talons snatching up m_c and flies away, m_c had been its prey.",
+        "m_c": {
+            "age": [ "kitten", "adolescent"],
+            "status": [ "any" ],
+            "dies": true
+        },
+        "history": [{
+            "cats": ["m_c"],
+            "reg_death": "m_c was taken by a hawk, never to be seen again."
+        }]
+    },
+    {
+        "event_id": "gen_sneak_out_fox_any1",
+        "location": ["forest:camp1_camp2_camp4"],
+        "season": [
+            "any"
+        ],
+        "tags": [],
+        "weight": 20,
+        "event_text": "Pure joy was in {PRONOUN/m_c/poss} eyes as {PRONOUN/m_c/subject} {VERB/m_c/sneak/sneaks} out of camp- {PRONOUN/m_c/subject} didnt want to play with the others, and a patrol finds {PRONOUN/m_c/poss} bloodied body, fox scent rancid on {PRONOUN/m_c/poss} pelt.",
+        "m_c": {
+            "age": [ "kitten", "adolescent"],
+            "status": [ "any" ],
+            "dies": true
+        },
+        "history": [{
+            "cats": ["m_c"],
+            "reg_death": "m_c was eaten by a fox after {PRONOUN/m_c/subject} tried to sneak out of camp."
+        }]
     }
 ]
