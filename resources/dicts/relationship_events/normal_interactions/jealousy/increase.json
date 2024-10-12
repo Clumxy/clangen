@@ -95,7 +95,9 @@
 			"m_c is jealous that r_c is getting more attention than {PRONOUN/m_c/object}.",
 			"m_c is upset that r_c always wins in their games.",
 			"m_c is upset when r_c wins a game that {PRONOUN/m_c/subject} had been planning for.",
-			"m_c is upset that r_c has more friends than {PRONOUN/m_c/object}."
+			"m_c is upset that r_c has more friends than {PRONOUN/m_c/object}.",
+			"m_c is thinking that r_c is always better than {PRONOUN/m_c/object}.",
+			"m_c is thinking that r_c has more fun than {PRONOUN/m_c/object} in {PRONOUN/r_c/poss} daily life."
 		],
 		"main_status_constraint": [
 			"kitten"

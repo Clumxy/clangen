@@ -147,7 +147,7 @@
 			"m_c and r_c have a long discussion about goals and aspirations, and find that they don't agree on many things.",
 			"m_c spent a long time talking with r_c and was disappointed by r_c's lack of interest.",
 			"m_c asks r_c about something complicated and regrets it almost immediately when r_c misses the point.",
-			"m_c was seething in anger with a failed hunt; because of r_c's careless performance! Does {PRONOUN/r_c/object} think that the prey will just suddenly appear in {PRONON/r_c/object}'s paws?"
+			"m_c was seething in anger after a failed hunt; because of r_c's careless performance! Does {PRONOUN/r_c/object} think that the prey will just suddenly appear in {PRONOUN/r_c/object}'s paws?"
 		],
 		"reaction_random_cat": {
 			"admiration": "decrease"
