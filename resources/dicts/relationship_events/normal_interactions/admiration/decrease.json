@@ -108,8 +108,15 @@
 			"m_c has noticed r_c isn't doing a lot of work lately.",
 			"m_c is disappointed in r_c's lack of initiative.",
 			"m_c notices that r_c seems to disappear whenever difficult tasks are being discussed.",
-			"m_c has noticed r_c's been a lot lazier lately."
-		],
+			"m_c has noticed r_c's been a lot lazier lately.",
+			"m_c is disgusted after r_c asked a warrior to get food; even though {PRONOUN/r_c/subject} didn't do anything to deserve it! Who does {PRONOUN/r_c/subject} think he is? The clan leader!?",
+			"m_c is annoyed with r_c for not helping out with some of {PRONOUN/m_c/poss} duties.",
+			"m_c is frustrated that r_c isn't taking more initiative to help out.",
+			"m_c is disappointed that r_c doesn't do more to help the clan.",
+			"m_c is disgusted that r_c does not do more to help out.",
+			"m_c is upset when they saw r_c embarrass himself in front of the clan.",
+			"m_c is disappointed after seeing r_c's recent performance on patrols. {PRONOUN/r_c/subject} is clearly not taking it seriously at all."
+   		],
 		"main_status_constraint": [
 			"elder",
 			"apprentice",
