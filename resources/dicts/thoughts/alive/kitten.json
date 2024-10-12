@@ -23,7 +23,12 @@
             "Is sleeping where r_c used to sleep",
             "Went to ask r_c to play only to remember {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} gone...",
             "Is crying for r_c",
-            "Doesn't understand why r_c won't wake up"
+            "Doesn't understand why r_c won't wake up",
+            "Goes to leave the den to play mossball with r_c, but quickly remembers that r_c is dead",
+            "Wishes that r_c was still alive so they could play with each other",
+            "Just played clan; but it would've been much funner if r_c was still alive",
+            "Is thinking about the fact r_c will never see {PRONOUN/m_c/poss} apprentice ceremony",
+            "Was ready to tell r_c the most funny joke to r_c, but is upset when {PRONOUN/m_c/subject} {VERB/m_c/realize/realizes} that r_c is dead"
         ],
         "random_status_constraint": [
             "kitten"
@@ -134,7 +139,15 @@
             "Is telling on r_c for doing something bad",
             "Is inviting r_c to play",
             "Doesn't want to play with r_c",
-            "Is pretending to be prey for r_c to hunt and chase"
+            "Is pretending to be prey for r_c to hunt and chase",
+            "Rasperries at r_c during a squabble",
+            "Just saw r_c play mossball without {PRONOUN/m_c/object}",
+            "Is happy when r_c plays with {PRONOUN/m_c/object}",
+            "Is trying to copy r_c's every move",
+            "Is imitating r_c's posture",
+            "Just accidentally stepped on r_c's tail",
+            "Is being scolded after playing too rough with r_c",
+            "Wonders what it would be like to be r_c for a day"
         ],
         "main_status_constraint": [
             "kitten"

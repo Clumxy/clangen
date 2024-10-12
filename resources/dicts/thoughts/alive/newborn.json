@@ -25,7 +25,9 @@
             "Mews at r_c as {PRONOUN/r_c/subject} {VERB/r_c/shift/shifts} in the nest",
             "Squeaks pitifully as r_c checks on {PRONOUN/m_c/object}",
             "Nuzzles up to r_c with a purr",
-            "Squeaks pitifully as r_c grooms {PRONOUN/m_c/object}"
+            "Squeaks pitifully as r_c grooms {PRONOUN/m_c/object}",
+            "Accidentally hissed at r_c after they mistook them for an other cat",
+            "Falls asleep in r_c's fur"
         ],
         "main_age_constraint": [
             "newborn"
@@ -42,7 +44,10 @@
         "thoughts":[
             "Tried suckling on r_c's tail",
             "Is being buried under r_c",
-            "Was almost shoved out of the nest by r_c"
+            "Was almost shoved out of the nest by r_c",
+            "Is kicking r_c in the belly",
+            "Is mewing loudly in r_c's face",
+            "Is purring contentedly next to r_c"
         ],
         "main_age_constraint": [
             "newborn"

@@ -93,7 +93,9 @@
 		"id": "jealousy_kit_inc_med1",
 		"interactions": [
 			"m_c is jealous that r_c is getting more attention than {PRONOUN/m_c/object}.",
-			"m_c is upset that r_c always wins in their games."
+			"m_c is upset that r_c always wins in their games.",
+			"m_c is upset when r_c wins a game that {PRONOUN/m_c/subject} had been planning for.",
+			"m_c is upset that r_c has more friends than {PRONOUN/m_c/object}."
 		],
 		"main_status_constraint": [
 			"kitten"
