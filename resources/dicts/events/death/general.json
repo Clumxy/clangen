@@ -6000,5 +6000,47 @@
             "reg_death": "r_c died after launching a failed assassination attempt on the Clan's leader."
         }
     ]
+  },
+  {
+    "event_id": "gen_death_tree_any1",
+    "location": ["any"],
+    "season": ["any"],
+    "tags": ["no_body", "all_lives"],
+    "weight": 20,
+    "event_text": "A harsh gust of wind blows through the forest, causing an huge, saturoustree to fall to the ground. m_c is crushed beneath its weight, {VERB/m_c/know/known} that {PRONOUN/m_c/poss} time has come to an end.",
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+      "dies": true
+    },
+    "history": [
+      {
+        "cats": ["m_c"],
+        "reg_death": "m_c died after a tree fell on {PRONOUN/m_c/object}.",
+        "lead_death": "{VERB/m_c/were/was} crushed by a falling tree"
+      }
+    ]
+  },
+  {
+    "event_id": "gen_death_fall_any1",
+    "location": ["any"],
+    "season": ["any"],
+    "tags": [],
+    "weight": 20,
+    "event_text": "m_c races r_c down a steep hill, but misjudges the steepness. {PRONOUN/m_c/subject} {VERB/m_c/fall/falls} and {VERB/m_c/hit/hits} {PRONOUN/m_c/poss} head against a hard surface, killing {PRONOUN/m_c/object}.",
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+      "dies": true
+    },
+    "r_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+      "dies": false
+    },
+    "history": [
+      {
+        "cats": ["m_c"],
+        "reg_death": "m_c died after falling on r_c.",
+        "lead_death": "{VERB/m_c/were/was} crushed by a falling tree"
+      }
+    ]
   }
 ]
