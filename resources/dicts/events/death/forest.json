@@ -155,5 +155,61 @@
             "cats": ["m_c"],
             "reg_death": "m_c was eaten by a fox after {PRONOUN/m_c/subject} tried to sneak out of camp."
         }]
+    },
+    {
+        "event_id": "gen_death_fall_any1",
+        "location": ["forest:camp1_camp2_camp4"],
+        "season": [
+            "any"
+        ],
+        "tags": [],
+        "weight": 20,
+        "event_text": "m_c eagerly climbs a tree, {PROUNOUN/m_c/poss} claws digging into the hard bark. Suddenly, one of {PRONOUN/m_c/poss} claws give way and in shock, {PRONOUN/m_c/subject} {VERB/m_c/let/lets} go of the branch with {pronoun/m_c/poss} other claws. {PRONOUN/m_c/subject/CAP} {VERB/m_c/plummet/plummets} to the ground, {PRONOUN/m_c/poss} neck snapping. At least {PRONOUN/m_c/subject} died painlessly.",
+        "m_c": {
+            "age": [
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ],
+            "status": [
+                "any"
+            ],
+            "dies": true
+        },
+        "history": [{
+            "cats": ["m_c"],
+            "reg_death": "m_c fell from a tree and died."
+        }]
+    },
+    {
+        "event_id": "fst_death_drown_any1",
+        "location": ["forest"],
+        "season": [
+            "any"
+        ],
+        "tags": [],
+        "weight": 20,
+        "event_text": "m_c has been missing for a while. Its only a few hours later that a patrol finds m_c's lifeless body floating lazily in the water.",
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult"
+            ],
+            "status": [
+                "any"
+            ],
+            "not_skill": [
+                "SWIMMER,2"
+            ],
+            "dies": true
+        },
+        "history": [{
+            "cats": ["m_c"],
+            "reg_death": "m_c drowned in the river.",
+            "lead_death": "drowned in the river"
+        }]
     }
 ]
