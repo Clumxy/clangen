@@ -115,7 +115,7 @@
 			"m_c is disappointed that r_c doesn't do more to help the clan.",
 			"m_c is disgusted that r_c does not do more to help out.",
 			"m_c is upset when they saw r_c embarrass himself in front of the clan.",
-			"m_c is disappointed after seeing r_c's recent performance on patrols. {PRONOUN/r_c/subject} is clearly not taking it seriously at all."
+			"m_c is disappointed after seeing r_c's recent performance on patrols. {PRONOUN/r_c/subject/CAP} is clearly not taking it seriously at all."
    		],
 		"main_status_constraint": [
 			"elder",

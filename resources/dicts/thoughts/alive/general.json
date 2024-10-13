@@ -416,7 +416,9 @@
             "Disappears for the whole day to explore the territory",
             "Promises {PRONOUN/m_c/poss} Clanmates {PRONOUN/m_c/subject} won't do anything dangerous while out",
             "Is always on the lookout for hidden passageways or secret areas",
-            "Found a hidden spot in the territory that {PRONOUN/m_c/subject}'d love to go to sometime"
+            "Found a hidden spot in the territory that {PRONOUN/m_c/subject}'d love to go to sometime",
+            "Disappears for the whole day to explore the territory",
+            "Promises {PRONOUN/m_c/poss} Clanmates {PRONOUN/m_c/subject} won't do anything dangerous while out"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -428,7 +430,9 @@
             "Involves the kits in a game of make-believe about traveling through a strange land",
             "Encourages the kits to explore as much as possible",
             "Is teaching the kits how to climb a seemingly intimidating boulder in the camp",
-            "Is playing a game of hide and seek with the kits"
+            "Is playing a game of hide and seek with the kits",
+            "Involves the kits in a game of make-believe about traveling through a strange land",
+            "Encourages the kits to explore as much as possible"
         ],
         "random_status_constraint": [
             "kitten"
@@ -500,7 +504,8 @@
             "Offers to help {PRONOUN/m_c/poss} Clanmates with their duties",
             "Imagines how {PRONOUN/m_c/subject} would run the Clan better",
             "Is setting out to catch five pieces of fresh-kill today",
-            "Evaluates how {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to sharpen up {PRONOUN/m_c/poss} battle skills"
+            "Evaluates how {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to sharpen up {PRONOUN/m_c/poss} battle skills",
+            "Imagines how {PRONOUN/m_c/subject} would run the Clan better"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -530,7 +535,8 @@
             "Is asking the Clan leader what {PRONOUN/m_c/subject} can do to help out around camp",
             "Has been imitating the Clan leader's behavior recently",
             "Knows {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a shoo-in for deputy",
-            "Is yelling at r_c for a decision {PRONOUN/r_c/subject} made!"
+            "Is yelling at r_c for a decision {PRONOUN/r_c/subject} made!",
+            "Has been imitating the Clan leader's behavior recently"
         ],
         "main_trait_constraint": [
             "ambitious"

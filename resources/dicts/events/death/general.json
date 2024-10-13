@@ -6007,7 +6007,7 @@
     "season": ["any"],
     "tags": ["no_body", "all_lives"],
     "weight": 20,
-    "event_text": "A harsh gust of wind blows through the forest, causing an huge, saturoustree to fall to the ground. m_c is crushed beneath its weight, {VERB/m_c/know/known} that {PRONOUN/m_c/poss} time has come to an end.",
+    "event_text": "A harsh gust of wind blows through the forest, causing an huge, saturoustree to fall to the ground. m_c is crushed beneath its weight, knowing that {PRONOUN/m_c/poss} time has come to an end.",
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "dies": true
@@ -6026,7 +6026,7 @@
     "season": ["any"],
     "tags": [],
     "weight": 20,
-    "event_text": "m_c races r_c down a steep hill, but misjudges the steepness. {PRONOUN/m_c/subject} {VERB/m_c/fall/falls} and {VERB/m_c/hit/hits} {PRONOUN/m_c/poss} head against a hard surface, killing {PRONOUN/m_c/object}.",
+    "event_text": "m_c races r_c down a steep hill, but misjudges the steepness. {PRONOUN/m_c/subject/CAP} {VERB/m_c/fall/falls} and {VERB/m_c/hit/hits} {PRONOUN/m_c/poss} head against a hard surface, killing {PRONOUN/m_c/object}.",
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "dies": true
