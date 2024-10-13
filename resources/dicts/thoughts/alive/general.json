@@ -356,6 +356,30 @@
         ]
     },
     {
+        "id": "arrogant_to_other",
+        "thoughts": [
+            "Is boasting about {PRONOUN/m_c/poss} accomplishments to r_c",
+            "Dismisses r_c's opinion as inferior to {PRONOUN/m_c/poss} own",
+            "Challenges r_c to a competition, certain of victory",
+            "Patronizingly offers to 'teach' r_c how to do something properly",
+            "Loudly criticizes r_c's performance in front of others",
+            "Claims credit for r_c's ideas or achievements",
+            "Interrupts r_c mid-sentence to correct them",
+            "Brags about how {PRONOUN/m_c/subject} could easily do r_c's job better",
+            "Belittles r_c's achievements, comparing them unfavorably to {PRONOUN/m_c/poss} own",
+            "Scoffs at r_c's suggestions, insisting {PRONOUN/m_c/poss} way is the only right way",
+            "Mockingly imitates r_c's mannerisms or speech patterns",
+            "Rolls {PRONOUN/m_c/poss} eyes dramatically whenever r_c speaks",
+            "Loudly proclaims how {PRONOUN/m_c/subject} would have handled r_c's situation 'so much better'"
+        ],
+        "main_trait_constraint": [
+            "arrogant"
+        ],
+        "random_status_constraint": [
+            "any"
+        ]
+    },
+    {
         "id": "bloodthirsty_gen",
         "thoughts": [
             "Is acting suspicious",
@@ -376,7 +400,18 @@
             "Wonders how {PRONOUN/m_c/subject} would run the Clan better",
             "Licks fresh-kill blood off {PRONOUN/m_c/poss} lips a little too intently",
             "Has been glaring at a certain cat in camp with an odd look in {PRONOUN/m_c/poss} eye",
-            "Daydreams about slaughtering every cat {PRONOUN/m_c/subject} {VERB/m_c/despise/despises}"
+            "Daydreams about slaughtering every cat {PRONOUN/m_c/subject} {VERB/m_c/despise/despises}",
+            "Is always on the lookout for the perfect ambush spot",
+            "Likes to imagine how {PRONOUN/m_c/subject} could sneak up on a cat and catch them off guard",
+            "Is planning a surprise attack on a cat that wronged {PRONOUN/m_c/object}",
+            "Fantasizes about leading a bloody conquest of neighboring Clans",
+            "Sharpens {PRONOUN/m_c/poss} claws obsessively, muttering about future battles",
+            "Collects trophies from defeated enemies, hiding them in {PRONOUN/m_c/poss} nest",
+            "Deliberately provokes fights to satisfy {PRONOUN/m_c/poss} thirst for violence",
+            "Dreams of becoming the most feared warrior in all the Clans",
+            "Practices killing moves on prey long after it's dead",
+            "Suggests increasingly violent solutions to Clan problems",
+            "Feels a rush of excitement at the scent of blood"
         ],
         "main_trait_constraint": [
             "bloodthirsty"
@@ -386,7 +421,13 @@
         "id": "bloodthirsty_to_leader",
         "thoughts": [
             "Wonders how easy it'd be to attack the leader from where {PRONOUN/r_c/subject} {VERB/r_c/lay/lies}",
-            "Is watching the leader closely while imagining the Clan under {PRONOUN/m_c/poss} rule"
+            "Is watching the leader closely while imagining the Clan under {PRONOUN/m_c/poss} rule",
+            "Imagines what {PRONOUN/m_c/subject} would do if {PRONOUN/m_c/subject} were leader",
+            "Is plotting ways to get rid of the current leader and take their place",
+            "Dreams of leading the Clan and making all the decisions",
+            "Wishes {PRONOUN/r_c/subject} would just step down already",
+            "Is considering challenging the leader for dominance",
+            "Daydreams about how {PRONOUN/m_c/subject} would be a better leader than r_c"
         ],
         "main_trait_constraint": [
             "bloodthirsty"
@@ -449,7 +490,15 @@
             "Has been reaching meditative states while sunbathing",
             "Calmly takes the lead while some Clanmates argue over this and that",
             "Knows everything will be okay in the end",
-            "Takes a deep breath and doesn't let a mean comment get to {PRONOUN/m_c/object}"
+            "Takes a deep breath and doesn't let a mean comment get to {PRONOUN/m_c/object}",
+            "Is meditating; while the rest of the clan is in chaos over something trivial",
+            "Is calmly walking through the storm; as the wind and rain rage on around {PRONOUN/m_c/object}",
+            "Is sitting calmly, purring softly, as a group of kits swarm around {PRONOUN/m_c/object}",
+            "Is taking a nap in the warm sunbeam streaming through the den entrance",
+            "Is gently guiding a lost kit back to its mother",
+            "Is silently watching a group of apprentices train, offering words of encouragement when needed",
+            "Is calmly walking through the forest, as the snowflakes fall softly around {PRONOUN/m_c/object}",
+            "Is sitting at the edge of the camp, watching the stars twinkle above"
         ],
         "main_trait_constraint": [
             "calm"
