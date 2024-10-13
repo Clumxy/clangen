@@ -5821,7 +5821,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 20,
-    "event_text": "m_c was taking some prey from the fresh-kill pile only to find a horde of rats! {PRONOUN/m_c/subject/CAP} called to r_c for help and together they fought off the rats, but m_c didn't survive.",
+    "event_text": "m_c was taking some prey from the fresh-kill pile only to find a horde of rats, crawling all over the prey pile! {PRONOUN/m_c/subject/CAP} called to r_c for help and together they fought off the rats, but m_c didn't survive.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
         "dies": true
