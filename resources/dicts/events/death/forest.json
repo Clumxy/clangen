@@ -164,7 +164,7 @@
         ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c eagerly climbs a tree, {PROUNOUN/m_c/poss} claws digging into the hard bark. Suddenly, one of {PRONOUN/m_c/poss} claws give way and in shock, {PRONOUN/m_c/subject} {VERB/m_c/let/lets} go of the branch with {pronoun/m_c/poss} other claws. {PRONOUN/m_c/subject/CAP} {VERB/m_c/plummet/plummets} to the ground, {PRONOUN/m_c/poss} neck snapping. At least {PRONOUN/m_c/subject} died painlessly.",
+        "event_text": "m_c eagerly climbs a tree, {PRONOUN/m_c/poss} claws digging into the hard bark. Suddenly, one of {PRONOUN/m_c/poss} claws give way and in shock, {PRONOUN/m_c/subject} {VERB/m_c/let/lets} go of the branch with {pronoun/m_c/poss} other claws. {PRONOUN/m_c/subject/CAP} {VERB/m_c/plummet/plummets} to the ground, {PRONOUN/m_c/poss} neck snapping. At least {PRONOUN/m_c/subject} died painlessly.",
         "m_c": {
             "age": [
                 "young adult",
