@@ -1,6 +1,6 @@
 [
     {
-        "patrol_id": "gen_bord_newlitter",
+        "patrol_id": "gen_bord_newlitter_hostile",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],

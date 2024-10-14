@@ -1,6 +1,6 @@
 [
         {
-            "patrol_id": "gen_bord_newlitter2",
+            "patrol_id": "gen_bord_newlitter_allies",
             "biome": ["any"],
             "season": ["any"],
             "types": ["border"],
