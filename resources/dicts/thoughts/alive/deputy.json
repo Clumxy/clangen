@@ -53,7 +53,8 @@
     {
       "id": "ambitious_teacher_deputy_to_leader",
         "thoughts": [
-            "Is planning a new training curriculum to impress the leader"
+            "Is planning a new training curriculum to impress the leader",
+            "Is being scolded by r_c for teaching an apprentice how to do an unethical fighting move"
         ],
         "random_status_constraint": [
             "leader"
