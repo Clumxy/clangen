@@ -187,6 +187,7 @@ class Cat:
         self._mentor = None  # plz
         self._experience = None
         self._moons = None
+        self.pregnancy = None
 
         # Public attributes
         self.gender = gender

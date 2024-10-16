@@ -1,6 +1,7 @@
+import ujson 
+import random
 
-import ujson
-
+from random import choice
 from scripts.cat.cats import Cat
 from scripts.cat.history import History
 from scripts.cat.names import names, Name
@@ -49,7 +50,7 @@ class Pregnancy_Events:
             [i for i in Cat.all_cats.values() if not (i.dead or i.outside or i.exiled)]
         )
         return len(Pregnancy_Events.biggest_family) > (living_cats / 10)
-
+    
     @staticmethod
     def handle_pregnancy_age(clan):
         """Increase the moon for each pregnancy in the pregnancy dictionary"""

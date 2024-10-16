@@ -323,6 +323,12 @@ class Game:
             print("No clans found")
             return None
         return clan_list
+    
+    def get_cat_by_ID_or_name(self, ID_or_name):
+        for cat in self.cat_class.all_cats.values():
+            if cat.ID == ID_or_name or cat.name == ID_or_name:
+                return cat
+        return None
 
     def save_clanlist(self, loaded_clan=None):
         """clans = []
