@@ -1,5 +1,3 @@
-import random
-from random import choice, randint
 
 import ujson
 
