@@ -1,4 +1,4 @@
-# clangen
+# clangen; kittenvy's personality mod
 
 ## On AI & LLMs
 
