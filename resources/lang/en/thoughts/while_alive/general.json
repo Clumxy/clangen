@@ -920,6 +920,27 @@
         ]
     },
     {
+        "id": "spoiled_gen",
+        "thoughts": [
+            "Is demanding r_c to bring {PRONOUN/m_c/object} fresh-kill",
+            "Is pouting after not being able to go on the border patrol",
+            "Is fuming after r_c refused to listen to {PRONOUN/m_c/object}",
+            "Is whining about something trivial",
+            "I'm a barbie girl in a barbie world",
+            "Is bossing r_c around",
+            "Is whining about getting {PRONOUN/m_c/poss} fur dirty",
+            "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} treated like a kittypet",
+            "Is ignoring the deputy's orders... just because {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} want to",
+            "Complains about getting soaked during a rain shower"
+        ],
+        "random_living_status":[
+            "living"
+        ],
+        "main_trait_constraint": [
+            "spoiled"
+        ]
+    },
+    {
         "id": "sneaky_gen",
         "thoughts":[
             "Taunted a dog stuck behind a Twoleg fence",

@@ -238,7 +238,7 @@
             "lawfulness": [5,14],
             "sociability": [6,14],
             "aggression": [9,14],
-            "stability": [11,17]
+            "stability": [0,8]
         },
         "outgoing": {
             "lawfulness": [7,16],
@@ -250,7 +250,7 @@
             "lawfulness": [3,14],
             "sociability": [4,13],
             "aggression": [6,16],
-            "stability": [3,11]
+            "stability": [8,16]
         },
         "innovative": {
             "lawfulness": [5,16],
@@ -258,7 +258,7 @@
             "aggression": [0,9],
             "stability": [7, 16]
         }
-    },
+},
     "kit_traits": {
         "unruly": {
             "lawfulness": [0, 8],
